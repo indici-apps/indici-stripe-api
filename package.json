@@ -1,7 +1,7 @@
 {
-  "name": "react-native-stripe-api",
-  "version": "0.1.0",
-  "description": "A small React Native library for Stripe Rest API",
+  "name": "indici-stripe-api",
+  "version": "1.1.0",
+  "description": "Indici middleware to Stripe API",
   "main": "src/Stripe.js",
   "scripts": {
     "lint": "eslint .",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xcarpentier/react-native-stripe-api.git"
+    "url": "git+https://github.com/indici-apps/indici-stripe-api.git"
   },
   "keywords": [
     "react-native",
@@ -20,9 +20,9 @@
   "author": "Xavier Carpentier <contact@xaviercarpentier.com> (http://xaviercarpentier.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xcarpentier/react-native-stripe-api/issues"
+    "url": "https://github.com/indici-apps/indici-stripe-api/issues"
   },
-  "homepage": "https://github.com/xcarpentier/react-native-stripe-api#readme",
+  "homepage": "https://github.com/indici-apps/indici-stripe-api",
   "jest": {
     "testPathIgnorePatterns": [
       "/node_modules/",
@@ -37,7 +37,7 @@
     ]
   },
   "devDependencies": {
-    "babel-core": "6.9.1",
+    "babel-core": "^6.26.3",
     "babel-eslint": "6.0.4",
     "babel-jest": "12.1.0",
     "babel-polyfill": "6.9.1",
@@ -47,7 +47,7 @@
     "eslint-plugin-import": "1.8.1",
     "eslint-plugin-jsx-a11y": "1.5.3",
     "eslint-plugin-react": "5.2.2",
-    "flow-bin": "0.25.0",
+    "flow-bin": "^0.131.0",
     "jest-cli": "12.1.1"
   },
   "peerDependencies": {
